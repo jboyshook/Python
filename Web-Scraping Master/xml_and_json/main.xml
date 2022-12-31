@@ -1,0 +1,28 @@
+<person>
+  <name>Chuck</name>
+  <phone type = "intl">
+    +1 734 303 4456
+  </phone>
+  <email hide = "yes"/>
+</person>
+
+<!-- 
+  Each pair of opening and closing tags is an element or a node
+  with the same name as the tag. Each element csan have sum text
+  or attribuites such as hide
+-->
+
+<!--This data will be used in loop_xml.py-->
+
+<stuff>   <!--#type:ignore-->
+  <users>
+    <user x = "2">
+      <id>001</id>
+      <name>Chuck</name>
+    </user>
+    <user x = "7">
+      <id>009</id>
+      <name>Brent</name>
+    </user>
+  </users>
+</stuff>
